@@ -12,13 +12,6 @@ variable "instance_type"{
     description = "this is instance type"
 }
 
-variable "instance_type"{
-
-    type = string
-    default = "t3.micro"
-    description = "this is instance type"
-}
-
 variable "tags" {
     type = map
     default = {
